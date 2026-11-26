@@ -28,7 +28,6 @@ difficulty = st.selectbox("select Difficulty level",[
   "Intermediate",
   "Advanced"
 ])
-
 #Generating Interview Questions
 if st.button("Generate Interview Questions"):
   prompt = "Generate 5 interview questions for the role of " + role + "with" + difficulty + "Difficulty"
