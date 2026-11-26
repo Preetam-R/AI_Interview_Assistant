@@ -1,5 +1,5 @@
 import streamlit as st
-from groq import GROQ
+from groq import Groq
 
 st.set_page_config(page_title = 'AI Interview Assistant', layout='centered')
 st.title('AI Interrview Assistant')
